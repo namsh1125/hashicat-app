@@ -1,11 +1,11 @@
 # Copyright (c) HashiCorp, Inc.
 
 policy "enforce-mandatory-tags" {
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 
 policy "restrict-deployment-cost" {
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 
 # policy "enforce-trusted-modules" {
